@@ -1,0 +1,572 @@
+@base:60rem;
+/*undergraduate(本科)*/
+/*banner*/
+
+*{
+  margin:0;
+  padding:0;
+}
+.clearfix:after{/*每次要在另一个页面用就要重新定义*/
+  display: block;
+  content: '';
+  height:0;
+  line-height:0;
+  clear:both;
+}
+.graduate_banner{
+  width:100%;
+  height:150/@base;
+  background-color: #ff5b61;
+  margin-top: 70/@base;
+  color:#fff;
+  h2{
+    width:100%;
+    text-align: center;
+    font-size:36/@base;
+    font-weight:bold;
+    line-height:82/@base;
+  }
+  p{
+    width:100%;
+    text-align: center;
+    font-size:20/@base;
+    span{
+      padding-right:18/@base;
+    }
+    span:last-child{
+      padding-right:0;
+    }
+  }
+}
+/*nav*/
+.graduate_nav{
+  .nav_inn{
+    position: relative;
+    bottom:24/@base;
+    left:150/@base;
+    background-color: #fff;
+    width:412/@base;
+    height:68/@base;
+    border-radius: 10/@base;
+    box-shadow: 0 0 20px 2px rgba(0,0,0,0.25);
+    padding-top: 26/@base;
+    box-sizing: border-box;
+    .nav_left{
+      display:block;
+      width:205/@base;
+      text-align: center;
+      font-size:16/@base;
+      float: left;
+    }
+    i{
+      display: block;
+      width:1px;
+      height:22/@base;
+      background-color: #b5b5b5;
+      float:left;
+    }
+    .nav_right{
+      display:block;
+      width:205/@base;
+      text-align: center;
+      font-size:16/@base;
+      float: right;
+    }
+
+  }
+}
+/*本科生作品集*/
+.undergraduate_content{
+  h2{
+    width:100%;
+    text-align: center;
+    font-size:40/@base;
+    font-weight:bold;
+  }
+  hr{
+    width:368/@base;
+    height:1/@base;
+    background-color:#c9c9c9;
+    margin:20/@base 0 40/@base 180/@base;
+    border:0;
+  }
+  .crowd{
+    width:100%;
+    text-align: center;
+    font-size: 26/@base;
+    line-height:50/@base;
+  /*  margin-bottom: 20/@base;*/
+
+  }
+  img{
+    width:650/@base;
+    height:316/@base;
+    margin-left: 36/@base;
+
+  }
+  .content{
+    margin:20/@base 25/@base;
+    font-size:18/@base;
+    line-height:40/@base;
+    p{
+      margin:20/@base;
+    }
+  }
+}
+/*研究生*/
+.graduate_content{
+  h2{
+    width:100%;
+    text-align: center;
+    font-size:40/@base;
+    font-weight:bold;
+  }
+  hr{
+    border:0;
+    width:368/@base;
+    height:1/@base;
+    background-color:#c9c9c9;
+    margin:20/@base 0 40/@base 180/@base;
+
+  }
+  .crowd{
+    width:100%;
+    text-align: center;
+    font-size: 26/@base;
+    margin-bottom: 20/@base;
+
+  }
+  img{
+    width:650/@base;
+    height:316/@base;
+    margin-left: 36/@base;
+
+  }
+  .content{
+    margin:20/@base 25/@base;
+    font-size:18/@base;
+    line-height:40/@base;
+  }
+}
+/*教学系统*/
+.teachsystem{
+    h2{
+      width:100%;
+      text-align: center;
+      font-size:40/@base;
+      font-weight:bold;
+    }
+  div{
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+  p{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    padding-right:10/@base;
+    box-sizing: border-box;
+    margin-top: 36/@base;
+    img{
+      width:320/@base;
+      height:74/@base;
+      margin-bottom: 10/@base;
+    }
+  }
+}
+/*资深团队*/
+.team{
+  img{
+    width:100%;
+    heigth:394/@base;
+    margin-top:55/@base;
+  }
+}
+/*vip通道*/
+.viproad{
+  margin-top: 38/@base;
+  img{
+    width:100%;
+    height:316/@base;
+  }
+
+}
+/*VIP直通车*/
+/*青少年*/
+.threetit{
+  width:100%;
+  display: flex;
+  flex-direction: row;
+  div{
+    width:33%;
+    background-color: #e0dddd;
+    padding:30/@base 0 36/@base 62/@base;
+    h2{
+      font-size:30/@base;
+      font-weight:bold;
+      line-height:46/@base;
+    }
+    hr{
+      width:50/@base;
+      height:4/@base;
+      border:0;
+      background-color:#ff5b61;
+      margin:10/@base 0 20/@base;
+    }
+    p{
+        font-size:22/@base;
+    }
+
+  }
+  .undergra_stu{
+    background-color: #c2c2c2;
+  }
+  .gradate_stu{
+    background-color: #a4a3a4;
+  }
+}
+/*VIP专属特权*/
+.vip_privilege{
+  width:100%;
+  padding-bottom: 45/@base;
+  color:#fff;
+  background-color: #1b1b1b;
+  h3{
+    width:100%;
+    font-size:34/@base;
+    font-weight:bold;
+    text-align: center;
+    padding:66/@base 0 52/@base 0;
+  }
+ .vip_privilege_top{
+   padding:52/@base 34/@base 12/@base;
+   div{
+     width:310/@base;
+     height:135/@base;
+     border:4/@base #ff5b61 solid;
+     border-radius: 10/@base;
+     font-size:28/@base;
+     color:#fff;
+     font-weight:bold;
+     text-align: center;
+     float:left;
+     box-sizing: border-box;
+     span{
+       display: block;
+
+     }
+   }
+   .privilege_tl{
+     margin:0 20/@base 24/@base 0;
+     span:first-child{
+       margin:35/@base 0 18/@base 0;
+     }
+   }
+   .privilege_tr{
+     margin:0 0 24/@base 0;
+     span:first-child{
+       margin:14/@base 0 0;
+     }
+     span:nth-child(2){
+       line-height:50/@base;
+     }
+   }
+   .privilege_bl{
+     margin:0 22/@base 0 0;
+     line-height:135/@base;
+   }
+   .privilege_br{
+     line-height:135/@base;
+   }
+ }
+  /*留学方案*/
+  .choose{
+    margin-left:34/@base;
+    h4{
+      font-size:34/@base;
+      line-height:92/@base;
+    }
+    p{
+      height:64/@base;
+      border: 1px #4c4c4c solid;
+      border-radius: 10/@base;
+      span{
+        display:block;
+        width:150/@base;
+        height:100%;
+        border-right:1px #4c4c4c solid;
+        font-size: 18/@base;
+        float:left;
+        text-align: center;
+        line-height:64/@base;
+      }
+      span:last-child{
+        border-right:0;
+      }
+    }
+    .choosedegree{
+      p{
+        width:304/@base;
+      }
+    }
+    .vipcar{
+      width:610/@base;
+    }
+    .curcontent{
+      width:100%;
+      padding-top:65/@base;
+
+      ul{
+        li{
+          width:314/@base;
+          height:104/@base;
+          border-radius: 10/@base;
+          background-color: #313131;
+          text-align: center;
+          font-size:22/@base;
+          line-height:104/@base;
+          float:left;
+          margin-bottom: 25/@base;
+        }
+        li:nth-child(2n+1){
+          margin-right:20/@base;
+        }
+
+      }
+    }
+  }
+}
+/*院校*/
+/*banner*/
+.academy_banner{
+  width:100%;
+  height:336/@base;
+  background:url("../uploads/image/yx_02.png") no-repeat 0 0;
+  background-size:100%;
+  margin-top: 70/@base;
+  position: relative;
+  form{
+    display: block;
+    width:75%;
+    height:50/@base;
+    background-color: #ffffff;
+    margin:0 auto;
+    border-radius: 10/@base;
+    input{
+      transform: translateY(-20/@base);
+
+    }
+    input:first-child{
+      width:420/@base;
+      border:0;
+      font-size:24/@base;
+      padding-left: 15/@base;
+
+    }
+    input:last-child{
+      width:24/@base;
+      height:26/@base;
+      background:url("../uploads/image/search_03.png") no-repeat 0 0;
+      background-size:100%;
+      border:0;
+    }
+    position:absolute;
+    bottom:20/@base;
+    left:95/@base;
+  }
+}
+/*国家*/
+.nation{
+  width:100%;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin-top:50/@base;
+  p{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    img{
+      width:98/@base;
+      height:70/@base;
+    }
+    span{
+      display: block;
+      font-size:24/@base;
+    }
+  }
+}
+/*留学国家简介*/
+.brief{
+  margin:0 34/@base 115/@base;
+  .brief_inn{
+    width:100%;
+    margin-top:66/@base;
+    .img_brift{
+      width:650/@base;
+      height:398/@base;
+      background: url("../uploads/image/berif.jpg") no-repeat 0 0;
+      background-size:100%;
+      border-radius: 10/@base 10/@base 0  0;
+      position: relative;
+      a{
+        display: block;
+        width:180/@base;
+        height:180/@base;
+        img{
+          width:100%;
+          border-radius: 50%;
+        }
+        position:absolute;
+        right:18/@base;
+        bottom:-90/@base;
+      }
+
+    }
+    .txt_brift{
+      border-radius:0  0 10/@base 10/@base ;
+      padding:36/@base 40/@base;
+      box-shadow: 0 1px 21px rgba(0, 0, 0, 0.2);
+
+      ul {
+        li{
+          font-size:26/@base;
+          font-weight: normal;
+          line-height:40/@base;
+          span{
+            font-weight:bold;
+          }
+        }
+      }
+      p{
+        button{
+          width:250/@base;
+          height:74/@base;
+          border-radius: 10/@base;
+          background-color:#f84646;
+          font-size:28/@base;
+          line-height:74/@base;
+          color:#fff;
+          border:0;
+          margin-top: 30/@base;
+        }
+      }
+    }
+  }
+
+
+}
+
+/*专业详情*/
+/*banner*/
+.details_banner{
+  width:100%;
+  height:186/@base;
+  background-color:#222222;
+  margin-top:70/@base;
+  color:#fff;
+  margin-bottom: 46/@base;
+  h2{
+    font-size:40/@base;
+    padding:52/@base 0 14/@base 34/@base;
+  }
+  h3{
+    font-size:30/@base;
+    padding-left:34/@base;
+  }
+}
+/*内容*/
+.details_content{
+  padding:0 34/@base;
+  box-sizing:border-box;
+  .introduction{
+    div{
+      padding-bottom: 46/@base;
+      h1{
+
+        font-size:32/@base;
+        font-weight:bold;
+        color:#ff5b61;
+      }
+      h3{
+        font-size:14/@base;
+        font-weight:bold;
+        color:#9f9f9f;
+        margin:6/@base 0 20/@base 0;
+      }
+      p{
+        font-size:18/@base;
+        line-height:28/@base;
+        color:#6b6b6b;
+      }
+    }
+  }
+  .collrankings{
+    h1{
+      width:100%;
+      text-align:center;
+      font-size:32/@base;
+      font-weight:bold;
+      padding-top: 30/@base;
+      margin-bottom: 32/@base;
+    }
+    p{
+      width:100%;
+      height:62/@base;
+      border-radius:10/@base;
+      background-color:#cbcaca;
+      font-size:28/@base;
+      span{
+        display:inline-block;
+        width:32%;
+        text-align: center;
+        color:#fff;
+        border-right:1px #fff solid;
+        line-height:62/@base;
+      }
+      span:last-child{
+        border-right:0;
+      }
+    }
+    p:last-child{
+      margin:2px 0 36/@base 0;
+      span{
+        width:49%;
+      }
+    }
+  }
+  ul{
+    li{
+      height:124/@base;
+      .rank_left{
+        margin:22/@base 44/@base 0 52/@base;
+        float:left;
+        img{
+          width:85/@base;
+          height:85/@base;
+          border-radius: 50/@base;
+        }
+      }
+      .rank_right{
+        float:left;
+        margin-top:32/@base;
+        h2{
+          font-size:26/@base;
+          font-weight:bold;
+          margin-bottom: 16/@base;
+        }
+        h3{
+          font-size:22/@base;
+          color:#c0c0c0;
+
+        }
+      }
+    }
+  }
+}
